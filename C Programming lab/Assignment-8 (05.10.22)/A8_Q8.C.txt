@@ -1,0 +1,19 @@
+/*****
+Author- Aditya Sharma
+Date- 05.10.22
+Aim- To swap values of two variables.
+*****/
+
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("Enter a and b\n");
+    
+    c=a;
+    a=b;
+    b=c;
+    printf("value of a is %d and that of b is %d",a,b);
+    
+    return 0;
+}

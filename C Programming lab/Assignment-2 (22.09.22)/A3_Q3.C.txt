@@ -1,0 +1,22 @@
+/************************************
+ Author- Aditya Sharma
+ Date- 23.09.22
+ Aim- Declaring, Initialising and printing 2 variables
+ Language- C programming
+ **********************************/
+ 
+ #include <stdio.h>
+ 
+ int main()
+ {
+     int a;
+     int b;
+     printf("Enter value of a\n");
+     scanf("%d\n",&a);
+     printf("Enter value of b\n");
+     scanf("%d\n",&b);
+     
+     printf("value of a is %d\n value of b is %d\n",a,b);
+     
+     return 0;
+ }

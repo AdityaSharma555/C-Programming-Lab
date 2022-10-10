@@ -1,0 +1,20 @@
+/*****
+Author- Aditya Sharma
+Date- 05.10.22
+Aim- To determine and print whether the entered number is divisible by 3 and 2
+*****/
+
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Enter an integer\n");
+    scanf("%d",&n);
+    
+    if (n%6==0)
+        {printf("It is divisible by both 2 and 3");}
+    else 
+        {printf("It is not divisible by both of 2 and 3");}
+    
+    return 0;
+}

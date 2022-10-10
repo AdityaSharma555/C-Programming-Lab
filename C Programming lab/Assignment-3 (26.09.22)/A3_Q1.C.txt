@@ -1,0 +1,17 @@
+/*
+Author- Aditya Sharma
+Date- 26.09.22
+Aim- To ask and then print the value of a variable
+Language- C programming
+*/
+
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("Enter the value of the variable ");
+    scanf("%d",&a);
+    printf("Value of variable is %d",a);
+    return 0;
+    
+}

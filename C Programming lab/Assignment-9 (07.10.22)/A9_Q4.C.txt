@@ -1,0 +1,35 @@
+/*****
+Author- Aditya Sharma
+Date- 07.10.2022
+Aim- To print whether number is positive, negative or zero.
+*****/
+
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("Enter an integer\n");
+    scanf("%d",&a);
+    
+    if (a>0)
+        {
+            if(a%10==0)
+                {
+                    printf("%d is a positive integer and divisible by 10",a);
+                }
+            else
+                {
+                    printf("%d is a positive integer but not divisible by 10",a);
+                }
+        }
+    else if(a<0)
+        {
+            printf("It is a negative integer");
+        }
+    else 
+        {
+            printf("It is zero");
+        }
+    
+    return 0;
+}

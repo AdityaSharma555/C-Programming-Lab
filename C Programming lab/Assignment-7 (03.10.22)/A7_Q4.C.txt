@@ -1,0 +1,22 @@
+/*******************
+Author- Aditya Sharma
+Date- 03.10.22
+Aim- To determine and print if the entered number is less than or greater than 10
+*******************/
+
+#include<stdio.h>
+int main()
+{
+    int x;
+    printf("Enter an Integer\n");
+    scanf("%d",&x);
+    
+    if (x>10)
+        {printf("It is greater than 10");}
+    else if (x<10)
+        {printf("It is less than 10");}
+    else
+        {printf("It is nrither less than nor greater than 10");}
+    
+    return 0;
+}

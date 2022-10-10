@@ -1,0 +1,21 @@
+/*****
+Author- Aditya Sharma
+Date- 07.10.2022
+Aim- To swap the values of two variable without using a third variable
+*****/
+
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    printf("Enter two integers 'a' and 'b'\n");
+    scanf("%d %d",&a,&b);
+    
+    b=a-b;
+    a=a-b;
+    b=a+b;
+    printf("Value of 'a' is %d and that of 'b' is %d",a,b);
+
+
+    return 0;
+}

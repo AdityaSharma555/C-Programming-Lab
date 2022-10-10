@@ -1,0 +1,38 @@
+/*****
+Author- Aditya Sharma
+Date- 07.10.2022
+Aim- To print whether number is even or odd. If even, print if its divisible by 3 also. If odd, print if its divisible by 5 as well
+*****/
+
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("Enter an integer\n");
+    scanf("%d",&a);
+    
+    if (a%2==0)
+        {
+            if(a%3==0)
+                {
+                    printf("%d is even and divisible by 3",a);
+                }
+            else
+                {
+                    printf("%d is even but not divisible by 3",a);
+                }
+        }
+    else
+        {
+            if(a%5==0)
+                {
+                    printf("%d is oddbut its divisible by 5",a);
+                }
+            else
+                {
+                    printf("%d is odd but not divisible by 5",a);
+                }
+        }
+    
+    return 0;
+}

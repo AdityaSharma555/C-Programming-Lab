@@ -1,0 +1,15 @@
+/*
+Author- Aditya Sharma
+Date- 28.09.22
+Aim- Difference of two integers
+*/
+
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    printf("Enter two integers ");
+    scanf("%d%d",&a,&b);
+    printf("\nThe difference is %d",a-b);
+    return 0;
+}

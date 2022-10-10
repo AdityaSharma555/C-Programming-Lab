@@ -1,0 +1,20 @@
+/*****
+Author- Aditya Sharma
+Date- 04.10.22
+Aim- To determine and print whether the given three length of sides can form a triangle.
+*****/
+
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("Enter lengths of all three sides of a triangle\n");
+    scanf("%d %d %d",&a,&b,&c);
+    
+    if (a+b>c && b+c>a && a+c>b)
+        {printf("This triangle is valid");}
+    else
+        {printf("This is not a valid triangle");}
+ 
+    return 0;
+}

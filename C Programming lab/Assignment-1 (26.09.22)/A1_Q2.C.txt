@@ -1,0 +1,13 @@
+/*
+Author- Aditya Sharma
+Date-- 26.09.22
+Aim- To print HELLO on screen
+Language- C programming, English
+*/
+#include<stdio.h>
+int main()
+{
+    printf("HELLO");
+    return 0;
+    
+}

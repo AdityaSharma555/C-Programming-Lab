@@ -1,0 +1,13 @@
+/*
+Author- Aditya Sharma
+Date- 26.09.22
+Aim- To print "TECHNO NJR INDIA"
+Language- C programming
+*/
+
+#include<stdio.h>
+int main ()
+{
+    printf("YOUR FIRST NAME\nMIDDLE NAME\nLAST NAME");
+    return 0;
+}

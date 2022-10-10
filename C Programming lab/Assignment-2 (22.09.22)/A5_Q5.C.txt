@@ -1,0 +1,22 @@
+/*
+Author- Aditya Sharma
+Date- 23.09.22
+Aim- Declaring, Initializing and printing values of 4 variables
+Language C programming
+*/
+
+#include<stdio.h>
+int main()
+{
+    int a=15;
+    int b=16;
+    int c=17;
+    int d=18;
+    
+    printf("First variable holds integer constant %d\n",a);
+    printf("Second variable holds an integer constant %d\n",b);
+    printf("Third variable holds an integer constant %d\n",c);
+    printf("Fourth variable holds an integer constant %d",d);
+    
+    return 0;
+}

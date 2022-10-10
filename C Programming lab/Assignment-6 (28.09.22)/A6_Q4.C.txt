@@ -1,0 +1,17 @@
+
+/*
+Author- Aditya Sharma
+Date-01.10.22
+Aim- To add, subtract, multiply, and divide two numbers
+*/
+
+#include<stdio.h>
+int main()
+{
+    int d;
+    printf("Enter distance in kms ");
+    scanf("%d",&d);
+    printf("Distance is equal to %dcm, %dmm, and %d inches\n",d*1000*100,d*1000*100*10,d*39370);
+    
+    return 0;
+}

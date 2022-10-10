@@ -1,0 +1,27 @@
+2. Write a C program that does the following task:
+ Add comments
+
+ Declare one variable[Give it some name]
+ Initialize the variable with a value, say 10.
+ Print this value on the screen. Output should be “Value
+of the variable is 10 “ [Do not print double quotes]
+
+
+Answer:
+
+/************************************
+ Author- Aditya Sharma
+ Date- 23.09.22
+ Aim- Declaring, Initialising and printing a variable
+ Language- C programming
+ **********************************/
+ 
+ #include <stdio.h>
+ 
+ int main()
+ {
+     int a=10;
+     printf("value of the variable is %d",a);
+     
+     return 0;
+ }

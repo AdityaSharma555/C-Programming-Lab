@@ -1,0 +1,22 @@
+/*****
+Author- Aditya Sharma
+Date- 04.10.22
+Aim- To determine and print the profit% or loss% osing the entered cp and sp.
+*****/
+
+#include<stdio.h>
+int main()
+{
+    int cp,sp,pl;
+    printf("Enter cost price and selling price\n");
+    scanf("%d %d",&cp,&sp);
+    
+    pl=sp-cp;
+    
+    if (sp>cp)
+        {printf("Profit is %d %",pl*100/cp);}
+    else if (cp>sp)
+        {printf("Loss is %d %",-1*pl*100/cp);}
+ 
+    return 0;
+}

@@ -1,0 +1,22 @@
+/*****
+Author- Aditya Sharma
+Date- 05.10.22
+Aim- To print whether the number of days the month has
+*****/
+
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Enter month number (ex.1 for january, 2 for february,etc) \n");
+    scanf("%d",&n);
+    
+    if (n==1 || n==3 || n==5 || n==7 || n==8 || n==10 || n==12)
+        {printf("It has 31 days");}
+    else if (n==4 || n==6||n==9||n==11)
+        {printf("It has 30 days");}
+    else 
+        {printf("It has 28 days in a common year and 29 days in a leap year");}
+    
+    return 0;
+}

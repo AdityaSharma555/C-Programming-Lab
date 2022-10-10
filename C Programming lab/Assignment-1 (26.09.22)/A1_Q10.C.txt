@@ -1,0 +1,13 @@
+/*
+Author- Aditya Sharma
+Date- 26.09.22
+Aim- To print "TECHNO NJR INDIA"
+Language- C programming
+*/
+
+#include<stdio.h>
+int main ()
+{
+    printf("Hello\nWorld");
+    return 0;
+}

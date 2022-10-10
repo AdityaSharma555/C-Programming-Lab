@@ -1,0 +1,18 @@
+/*
+Author- Aditya Sharma
+Date- 28.09.22
+Aim- To calculate total salary
+*/
+
+#include<stdio.h>
+int main()
+{
+    int bs,ts;
+    
+    printf("Enter basic salary\n");
+    scanf("%d",&bs);
+    ts=bs*1.7;
+    printf("Gross salary is %d",ts);
+    
+    return 0;
+}

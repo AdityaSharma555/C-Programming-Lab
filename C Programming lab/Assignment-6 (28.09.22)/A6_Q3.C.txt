@@ -1,0 +1,17 @@
+
+/*
+Author- Aditya Sharma
+Date-01.10.22
+Aim- To add, subtract, multiply, and divide two numbers
+*/
+
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    printf("Enter any two numbers ");
+    scanf("%d %d",&a,&b);
+    printf("Sum is %d\nDifference is %d\nProduct is %d\nQuotient is %d\n",a+b,a-b,a*b,a/b);
+    
+    return 0;
+}

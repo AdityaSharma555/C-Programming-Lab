@@ -1,0 +1,20 @@
+/*****
+Author- Aditya Sharma
+Date- 04.10.22
+Aim- To determine and print whether the entered integer is even or odd
+*****/
+
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Enter an integer\n");
+    scanf("%d",&n);
+    
+    if (n%2==0)
+        {printf("It is even");}
+    else
+        {printf("It is odd");}
+        
+    return 0;
+}

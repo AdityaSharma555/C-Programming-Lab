@@ -1,0 +1,22 @@
+/*******************
+Author- Aditya Sharma
+Date- 03.10.22
+Aim- To determine and print if the entered number is positive or negative
+*******************/
+
+#include<stdio.h>
+int main()
+{
+    int x;
+    printf("Enter an Integer\n");
+    scanf("%d",&x);
+    
+    if (x>0)
+        {printf("Positive number");}
+    else if (x<0)
+        {printf("Negative number");}
+    else
+        {printf("Neither negative nor positive");}
+    
+    return 0;
+}

@@ -1,0 +1,23 @@
+/*
+Author- Aditya Sharma
+Date- 28.09.22
+Aim- Division of two integers
+*/
+
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    printf("Enter two integers ");
+    scanf("%d%d",&a,&b);
+    
+    if(a>b)
+    {
+        printf("\nThe quotient is %d",a/b);
+    }
+    else
+    {
+        printf("\n The quotient is 1/%d",b/a);
+    }
+    return 0;
+}

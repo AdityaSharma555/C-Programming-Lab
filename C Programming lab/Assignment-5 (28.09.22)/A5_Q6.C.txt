@@ -1,0 +1,17 @@
+/*
+Author- Aditya Sharma
+Date- 28.09.22
+Aim- To calculate area of a circle
+*/
+
+#include<stdio.h>
+#define pi 3
+int main()
+{
+    int r;
+    printf("Enter length of side ");
+    scanf("%d",&r);
+    printf("\nThe area of circle is %d",r*r*pi);
+    
+    return 0;
+}

@@ -1,0 +1,16 @@
+/*
+Author- Aditya Sharma
+Date- 28.09.22
+Aim- To calculate perimeter of a rectangle
+*/
+
+#include<stdio.h>
+int main()
+{
+    int l,b;
+    printf("Enter length and breadth ");
+    scanf("%d%d",&l,&b);
+    printf("\nThe perimeter of rectangle is %d",2*l+2*b);
+    
+    return 0;
+}

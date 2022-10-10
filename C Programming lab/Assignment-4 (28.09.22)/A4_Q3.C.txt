@@ -1,0 +1,15 @@
+/*
+Author- Aditya Sharma
+Date- 28.09.22
+Aim- Product of two integers
+*/
+
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    printf("Enter two integers you want to multiply ");
+    scanf("%d%d",&a,&b);
+    printf("\nThe product is %d",a*b);
+    return 0;
+}

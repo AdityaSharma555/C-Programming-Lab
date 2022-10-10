@@ -1,0 +1,16 @@
+/*
+Author- Aditya Sharma
+Date- 28.09.22
+Aim- To convert height from feet to inches
+*/
+
+#include<stdio.h>
+int main()
+{
+    int feet, inch, Tinch;
+    printf ("Enter height as 'feet inch'");
+    scanf("%d%d",&feet,&inch);
+    Tinch= feet*12+inch;
+    printf("The height in inches is %d",Tinch);
+    return 0;
+}

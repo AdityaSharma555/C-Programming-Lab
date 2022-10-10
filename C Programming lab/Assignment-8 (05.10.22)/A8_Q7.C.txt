@@ -1,0 +1,16 @@
+/*****
+Author- Aditya Sharma
+Date- 05.10.22
+Aim- To calculate and print the value of INR in USD
+*****/
+
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Enter amout in INR\n");
+    scanf("%d",&n);
+    printf("Value in USD is %d",n/80);
+    
+    return 0;
+}

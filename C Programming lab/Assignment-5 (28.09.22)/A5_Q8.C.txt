@@ -1,0 +1,17 @@
+/*
+Author- Aditya Sharma
+Date- 29.09.22
+Aim- To calculate the sum of three sides of a triangle
+*/
+
+#include<stdio.h>
+int main()
+{
+	int a,b,c;
+	printf("Enter the sides of the triangle\n");
+	scanf("%d %d %d",&a,&b,&c);
+	printf("Sum of of the three sides is %d",a+b+c);
+	
+	return0
+}
+

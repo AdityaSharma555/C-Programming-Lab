@@ -1,0 +1,13 @@
+/*
+Author- Aditya Sharma
+Date- 26.09.22
+Aim- To print YOUR MIDDLE NAME on the screen
+Language- C programming
+*/
+
+#include<stdio.h>
+int main()
+{
+    printf("YOUR MIDDLE NAME");
+    return 0;
+}

@@ -1,0 +1,21 @@
+/*
+Author- Aditya Sharma
+Date- 26.09.22
+Aim- To Declare, Scan and Print 3 variables
+Language- C programming
+*/
+
+#include<stdio.h>
+int main ()
+{
+    int a,b,c;
+    printf("Enter the value of first variable ");
+    scanf("%d",&a);
+    printf("Enter the value of second variable ");
+    scanf("%d",&b);
+    printf("Enter the value of third variable ");
+    scanf("%d",&c);
+    printf("Value of first variable is %d Value of second varible is %d and Value of third variable is %d",a,b,c);
+    return 0;
+    
+}

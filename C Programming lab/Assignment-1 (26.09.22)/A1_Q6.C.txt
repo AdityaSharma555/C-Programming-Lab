@@ -1,0 +1,14 @@
+/*
+Author- Aditya Sharma
+Date- 26.09.22
+Aim- To print YOUR LAST NAME on the screen
+Language- C programming
+*/
+
+#include<stdio.h>
+int main ()
+{
+    printf("YOUR LAST NAME");
+    return 0;
+    
+}

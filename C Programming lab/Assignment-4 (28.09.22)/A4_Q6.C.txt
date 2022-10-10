@@ -1,0 +1,16 @@
+/*
+Author- Aditya Sharma
+Date- 28.09.22
+Aim- To convert given distance between two cities from kms to m
+*/
+
+#include<stdio.h>
+int main()
+{
+    int Skm,Scm;
+    printf("Enter the distance in kms\n");
+    scanf("%d",&Skm);
+    Scm= Skm*1000;
+    printf("Distance in cm is %d",Scm);
+    return 0;
+}

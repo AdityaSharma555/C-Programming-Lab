@@ -1,0 +1,29 @@
+/*******************
+Author- Aditya Sharma
+Date- 03.10.22
+Aim- To calculate sum/difference/product/quotient of two numbers as opted by user
+*******************/
+
+#include<stdio.h>
+int main()
+{
+    int a,b,n;
+    printf("Enter two integers\n");
+    scanf("%d %d",&a,&b);
+    printf("Enter 1 for sum, 2 for difference, 3 for product, 4 for quotient\n");
+    scanf("%d",&n);
+    
+    if (n==1)
+        {printf("sum is %d",a+b);}
+    else if (n==2)
+        {printf("difference is %d",a-b);}
+    else if (n==3)
+        {printf("Product is %d",a*b);}
+    else if (n==4)
+        {printf("Quotient is %d",a/b);}
+    else if (n==0)
+	{printf("NO OPERATION");}
+        
+    return 0;
+
+}

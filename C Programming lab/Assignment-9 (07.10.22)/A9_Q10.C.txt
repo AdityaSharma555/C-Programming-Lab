@@ -1,0 +1,35 @@
+/*****
+Author- Aditya Sharma
+Date- 07.10.2022
+Aim- To calculate and print electricity bill
+*****/
+
+#include<stdio.h>
+int main()
+{
+    int used;
+    printf("Enter an amount of energy consumed in units\n");
+    scanf("%d",&used);
+    
+    if(used<=50)
+    {
+        printf("Electricity bill is %d",used/2);
+    }
+    
+    else if(used>50 && used<=150)
+    {
+        printf("Electricity bill is %d",(25+(used-50)*3/4));
+    }
+    
+    else if(used>=150 && used<=250)
+    {
+        printf("Electricity bill is %d",(100+(used-150)*6/5));
+    }
+    
+    else
+    {
+        printf("Electricity bill is %d",(220+(used-250)*3/2));
+    }
+
+    return 0;
+}

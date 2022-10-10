@@ -1,0 +1,13 @@
+/*
+Author- Aditya Sharma
+Date- 26.09.22
+Aim- To rint YOUR FIRST NAME on the screen
+Language- C programming
+*/
+
+#include<stdio.h>
+int main ()
+{
+    printf("YOUR FIRST NAME");
+    return 0;
+}

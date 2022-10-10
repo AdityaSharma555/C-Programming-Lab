@@ -1,0 +1,16 @@
+/*
+Author- Aditya Sharma
+Date- 28.09.22
+Aim- To calculate area of a square
+*/
+
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("Enter length of side ");
+    scanf("%d",&a);
+    printf("\nThe area of square is %d",a*a);
+    
+    return 0;
+}

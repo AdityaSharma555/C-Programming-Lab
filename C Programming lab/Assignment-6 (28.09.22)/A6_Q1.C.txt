@@ -1,0 +1,84 @@
+/***********************************
+Author-Aditya Sharma
+Date-30.09.22
+Aim- To calculate and print areas and perimeters 
+***********************************/
+
+#include<stdio.h>
+#define pi 3;
+
+//Prototypes-
+void rectangle();
+void square();
+void circle();
+void triangle();
+
+int main()
+{
+rectangle();
+square();
+circle();
+triangle();
+
+return 0;
+}
+/**********************/
+
+void rectangle()
+{
+int l,b,Rarea,Rperi;
+
+printf("Enter the length and breadth of rectangle ");
+scanf("%d %d",&l,&b);
+Rarea=l*b;
+Rperi=2*l+2*b;
+printf("Area of rectangle is %d and perimeter is %d\n\n",Rarea,Rperi);
+
+}
+/**********************/
+
+void square()
+{
+int a,Sarea,Speri;
+
+printf("Enter length of side off a square ");
+scanf("%d",&a);
+Sarea=a*a;
+Speri=4*a;
+printf("Area of square is %d and its perimeter is %d\n\n",Sarea,Speri);
+
+}
+/**********************/
+
+void circle()
+{
+int r,Carea,Ccircum;
+
+printf("Enter length of radious of the circle ");
+scanf("%d",&r);
+Carea=r*r*pi;
+Ccircum=2*r*pi;
+printf("Area of circle is %d and its perimeter is %d\n\n",Carea,Ccircum);
+
+}
+/**********************/
+
+void triangle()
+{
+int p,q,r,sum;
+
+printf("Enter length of all three sides of the triangle ");
+scanf("%d %d %d",&p,&q,&r);
+sum=p+q+r;
+printf("Sum of three sides is %d\n\n",sum);
+
+}
+/**********************/
+
+
+
+
+
+
+
+
