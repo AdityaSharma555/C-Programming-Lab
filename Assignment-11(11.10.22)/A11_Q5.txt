@@ -1,0 +1,22 @@
+/*****
+Author- Aditya Sharma
+Date- 12.10.22
+Aim- To print sum of 'n' number of pairs
+*****/
+
+#include<stdio.h>
+int main()
+{
+    int n,a,b;
+    printf("Enter number of pairs to be printed\n");
+    scanf("%d",&n);
+    while(n>0)
+        {
+            printf("Enter two integers to be added\n");
+            scanf("%d %d",&a,&b);
+            printf("Sum is %d\n\n",a+b);
+            n--;
+        }
+    
+    return 0;
+}
