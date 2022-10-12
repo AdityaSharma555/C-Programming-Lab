@@ -1,0 +1,21 @@
+/*****
+Author- Aditya Sharma
+Date- 12.10.22
+Aim-  To print Hello World 'n' times
+*****/
+
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Enter the number of times you want to print Hello world\n");
+    scanf("%d",&n);
+    
+    while(n>0)
+        {
+            printf("Hello World\n");
+            n=n-1;
+        }
+    
+    return 0;
+}

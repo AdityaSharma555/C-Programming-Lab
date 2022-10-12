@@ -1,0 +1,21 @@
+/*****
+Author- Aditya Sharma
+Date- 12.10.22
+Aim- To make the last digit of a variable as 0.
+*****/
+
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("Enter an integer\n");
+    scanf("%d",&a);
+    
+    while(a%10!=0)
+        {
+            a=a-1;
+        }
+    
+    printf("New value of variable is %d",a);
+    return 0;
+}
